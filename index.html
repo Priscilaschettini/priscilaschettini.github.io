@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2? family=Merriweather+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Labrada:wght@300&family=Merriweather+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Proyecto final-</title>
+    <script> 
+        function vermas(id){
+        if(id=="mas"){
+        document.getElementById("desplegar").style.display="block";   
+        document.getElementById("mas").style.display="none"; 
+        }
+        else{
+        document.getElementById("desplegar").style.display="none";
+        document.getElementById("mas").style.display="inline";
+        }
+        }
+        </script>
+          <script> 
+            function vermenos(id){
+            if(id=="menos"){
+            document.getElementById("desplegar").style.display="none";   
+            document.getElementById("menos").style.display="none"; 
+            }
+            else{
+            document.getElementById("desplegar").style.display="none";
+            document.getElementById("menos").style.display="none";
+            }
+            }
+            </script>
+            <script src="https://kit.fontawesome.com/74f7ebce20.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div> 
+    <h1><u>Curriculum Vitae</u></h1> 
+    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="foto de perfil"
+    height="200" max-width="250">
+    <h2><u>Datos personales</u></h2>
+
+	        <ul>
+            <li><i class="fa-sharp fa-solid fa-user"></i> Tom Williams</li>
+			<li><i class="fa-sharp fa-solid fa-envelope"></i> Tom.williams@example.com</li>
+            <li><i class="fa-solid fa-phone"></i> 595-8770</li>
+            <li><i class="fa-sharp fa-solid fa-location-dot"></i> Samaritan Dr 7500</li>
+            <li><i class="fa-sharp fa-solid fa-calendar-days"></i> 8/06/1994</li>
+
+       </ul> 
+    <div class="párrafo">
+        <h3><i class="fa-sharp fa-solid fa-circle-down"></i>Más información sobre mi</h3>
+        <a href="#" id="mas" onclick="vermas('mas')">Leer más</a>
+                    <p id="desplegar"style="display:none;">					
+                    Soy estudiante de desarrollo web front-end, ingrese en el año 2022 en el curso de "Argentina Programa 4.0".
+                    Adquiri conocimientos sobre HTML, CSS Y JAVASCRIPT. Actualmente ingresé a la cursada "JS y Node/JS" a través del programa Codo a Codo. 
+                    Donde seguiré incorporando conocimientos para mi curriculum.
+        <a href="#" id="menos" onclick="vermenos('none')"> leer menos </a>
+        </p>
+            </article>
+            </div>
+            </div>
+            
+
+</body>
+</html>
