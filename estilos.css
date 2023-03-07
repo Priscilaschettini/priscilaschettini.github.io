@@ -1,0 +1,47 @@
+html {
+  background-color:rgba(143, 36, 3, 0.869)
+}
+
+body {
+  background-color:rgb(240, 229, 215);
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 20px 60px 20px;
+  border: 3px solid black;
+}
+
+h1 {
+  color:rgba(71, 66, 66, 0.872);
+  font-size: 35px;
+  text-align: center;
+}
+h2 {
+  color:rgb(160, 33, 4);
+  font-size: 30 px;
+  font-family: 'Labrada', serif;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h3{
+  color:rgba(52, 56, 53, 0.809);
+  font-size:25 px;
+  font-family: 'Labrada', serif;
+
+}
+
+ul {
+  font-size: 20px;
+  font-family:'Merriweather Sans', sans-serif;
+}
+
+p
+{
+  color:rgb(18, 16, 19)
+  font-size= 35 px;
+  font-family:'Merriweather Sans', sans-serif
+}
